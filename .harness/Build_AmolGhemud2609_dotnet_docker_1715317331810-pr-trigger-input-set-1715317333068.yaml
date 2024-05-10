@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AmolGhemud2609_dotnet_docker_1715317331810-pr-trigger-input-set
+  identifier: Build_AmolGhemud2609_dotnet_docker_1715317331810prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AmolGhemud2609_dotnet_docker_1715317331810
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
